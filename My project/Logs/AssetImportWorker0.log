@@ -1,0 +1,425 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.17f1 (3e8111cac19d) revision 4096273'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 16165 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/andre repository/New folder/zombie-game/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53330
+Successfully changed project path to: E:/andre repository/New folder/zombie-game/My project
+E:/andre repository/New folder/zombie-game/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9744] Host "[IP] 10.70.24.59 [Port] 0 [Flags] 2 [Guid] 571999475 [EditorId] 571999475 [Version] 1048832 [Id] WindowsEditor(7,MHCTE-205-10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9744] Host "[IP] 10.70.24.59 [Port] 0 [Flags] 2 [Guid] 571999475 [EditorId] 571999475 [Version] 1048832 [Id] WindowsEditor(7,MHCTE-205-10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 77.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.17f1 (3e8111cac19d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/andre repository/New folder/zombie-game/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 550 (ID=0x699f)
+    Vendor:   ATI
+    VRAM:     4076 MB
+    Driver:   30.0.13023.4001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009354 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 72.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.601 seconds
+Domain Reload Profiling:
+	ReloadAssembly (601ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (408ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (90ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (246ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005749 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\andre repository\New folder\zombie-game\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\andre repository\New folder\zombie-game\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.686 seconds
+Domain Reload Profiling:
+	ReloadAssembly (687ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (464ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (180ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (163ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Failed to load shader (instanceID 396, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 398, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (47.7 KB). Loaded Objects now: 477.
+Memory consumption went from 26.8 MB to 26.7 MB.
+Total: 1.984000 ms (FindLiveObjects: 0.032900 ms CreateObjectMapping: 0.003500 ms MarkObjects: 1.899300 ms  DeleteObjects: 0.047800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 51072.467148 seconds.
+  path: Assets/New Scene.unity
+  artifactKey: Guid(3d0ba549b94524944a996e8f6c372c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Scene.unity using Guid(3d0ba549b94524944a996e8f6c372c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d97c53298d2225d4df29c04e4676cd5') in 0.004275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 298.634228 seconds.
+  path: Packages/com.unity.textmeshpro
+  artifactKey: Guid(cabaa672b0e3ee91fa7b6da4daab7970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro using Guid(cabaa672b0e3ee91fa7b6da4daab7970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf78c780afb9309d81bfaa7bbb0b7f8c') in 0.004000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.274411 seconds.
+  path: Packages/com.unity.textmeshpro/package.json
+  artifactKey: Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/package.json using Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f445814511be1caffb984507b3a4793') in 0.020727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.765535 seconds.
+  path: Packages/com.unity.ide.rider/package.json
+  artifactKey: Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.rider/package.json using Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84743056ad88ae4384470c31d1e72007') in 0.008206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.845943 seconds.
+  path: Packages/com.unity.ext.nunit/package.json
+  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40fc5629c4141466786b845dfe4fc31') in 0.002502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.560609 seconds.
+  path: Packages/com.unity.ext.nunit/net35
+  artifactKey: Guid(a36d8b72880a8004f96ac54ce4598ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/net35 using Guid(a36d8b72880a8004f96ac54ce4598ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dcbe2fa261f9a2739dac4c6c08dc567') in 0.003487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.683868 seconds.
+  path: Packages/com.unity.ide.vscode
+  artifactKey: Guid(1c61a04a5b7737c4d16673d64be4194e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.vscode using Guid(1c61a04a5b7737c4d16673d64be4194e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94248d05651707ad8c86b4532d5ae2b') in 0.004012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.240013 seconds.
+  path: Packages/com.unity.ide.vscode/package.json
+  artifactKey: Guid(ffc6271f08270b64ca0aae9c49235d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.vscode/package.json using Guid(ffc6271f08270b64ca0aae9c49235d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9797d3eb575af519a91cff9ea5b73f84') in 0.011580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.010712 seconds.
+  path: Packages/com.unity.ide.vscode/Editor
+  artifactKey: Guid(58628227479c34542ac8c5193ccced84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.vscode/Editor using Guid(58628227479c34542ac8c5193ccced84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e248096366098e14c19e1216827242') in 0.008637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.088282 seconds.
+  path: Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef
+  artifactKey: Guid(8b845b123ab418448a8be2935fa804e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef using Guid(8b845b123ab418448a8be2935fa804e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee24f502f1831b8e657cb65f046e4c5a') in 0.012011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.285399 seconds.
+  path: Packages/com.unity.ide.vscode/Editor/ProjectGeneration
+  artifactKey: Guid(c779d3735d950f341ba35154e8b3234b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.vscode/Editor/ProjectGeneration using Guid(c779d3735d950f341ba35154e8b3234b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1bf2286d36a7bacbbb763e2fa9c1cf') in 0.003469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 431.739228 seconds.
+  path: Assets/_TerrainAutoUpgrade
+  artifactKey: Guid(a87f9c83bd8ed3341ae4d61828d391ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade using Guid(a87f9c83bd8ed3341ae4d61828d391ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5767dea2dbdc4743c38116cfa4eca8f') in 0.007548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.228185 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Cliff_1_DiffuseCliff_1_Normaleda51f90c7f37482.terrainlayer
+  artifactKey: Guid(913c8217389a9554a951ec57c4e07f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Cliff_1_DiffuseCliff_1_Normaleda51f90c7f37482.terrainlayer using Guid(913c8217389a9554a951ec57c4e07f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f08500108c5ffd9ea2d3177636b9929') in 0.078495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Grass_2_DiffuseGrass_2_Normal2023054508611406.terrainlayer
+  artifactKey: Guid(01885ebb5d978b04ebbad0ea7f5ba231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Grass_2_DiffuseGrass_2_Normal2023054508611406.terrainlayer using Guid(01885ebb5d978b04ebbad0ea7f5ba231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182fe330c1f13a929eabb261a768f473') in 0.024941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Dirt_2_DiffuseDirt_2_Normal2023054508611406.terrainlayer
+  artifactKey: Guid(185a4f80c4743884798b58f24cf18f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Dirt_2_DiffuseDirt_2_Normal2023054508611406.terrainlayer using Guid(185a4f80c4743884798b58f24cf18f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aab37e5e748f26ac41123b48ad2c388') in 0.016377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Sand_DiffuseSand_Normal2023054508611406.terrainlayer
+  artifactKey: Guid(a29401b2ec7963b4fada9f1c1a9fa9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Sand_DiffuseSand_Normal2023054508611406.terrainlayer using Guid(a29401b2ec7963b4fada9f1c1a9fa9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35005a68ca4c818e0efa078e72d5d9b') in 0.015991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.267188 seconds.
+  path: Assets/Free Island Collection/Environment/Terrain/Textures/Dirt_1/Dirt_1_Diffuse.tif
+  artifactKey: Guid(721e0006ccd5ef64abea0e806ed8c207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Environment/Terrain/Textures/Dirt_1/Dirt_1_Diffuse.tif using Guid(721e0006ccd5ef64abea0e806ed8c207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354dc3b7650d678837813553cb783e3a') in 0.032867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.822100 seconds.
+  path: Assets/Free Island Collection/Environment
+  artifactKey: Guid(ccdeaf8de5e1b544e9e91c1408007830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Environment using Guid(ccdeaf8de5e1b544e9e91c1408007830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da67f7e495cf4cf63f9a2702ae33ea4') in 0.004201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.083262 seconds.
+  path: Assets/Free Island Collection/Environment/Grass
+  artifactKey: Guid(c86913ae686abec4499068ede1a90675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Environment/Grass using Guid(c86913ae686abec4499068ede1a90675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf15914a52bd64c142b3ede0399ba5bf') in 0.004519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.576332 seconds.
+  path: Assets/Free Island Collection/Environment/Skies
+  artifactKey: Guid(2e133b697ffc83e4d84b8fed7b1d196d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Environment/Skies using Guid(2e133b697ffc83e4d84b8fed7b1d196d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dacd7f060dec51ea9ff2917ce943771') in 0.003276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.090625 seconds.
+  path: Assets/Free Island Collection/Environment/Skies/Sky Material.mat
+  artifactKey: Guid(614a3d8218d370d40895a63854c838b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Environment/Skies/Sky Material.mat using Guid(614a3d8218d370d40895a63854c838b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0465ca91feaacaa4c88b30a3682e4b77') in 0.075223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.470917 seconds.
+  path: Assets/Free Island Collection/Environment/Skies/Materials
+  artifactKey: Guid(0e2b97a28be2b4d46bcd0d01b97ed1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Environment/Skies/Materials using Guid(0e2b97a28be2b4d46bcd0d01b97ed1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b7500fd50ec0674d8b0f2afbbc57ac') in 0.004258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.393112 seconds.
+  path: Assets/Free Island Collection/Environment/Skies/Materials/Sky.mat
+  artifactKey: Guid(6b38a7165c46dcc4dbe82debb25c6a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Environment/Skies/Materials/Sky.mat using Guid(6b38a7165c46dcc4dbe82debb25c6a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1754d33071cf6246d229a1131fd4b3be') in 0.013377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.356927 seconds.
+  path: Assets/Free Island Collection/Environment/Terrain/Terrains
+  artifactKey: Guid(44bdbd9455fa7cf4bb2d86640305df2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Environment/Terrain/Terrains using Guid(44bdbd9455fa7cf4bb2d86640305df2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae55fa4fc18af6e9c8b3c4f3908a4e8') in 0.003355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.887699 seconds.
+  path: Assets/Free Island Collection/Environment/Terrain/Terrains/Terrain 1.asset
+  artifactKey: Guid(4d32e30b5f100b34092f0cddf84f008e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Environment/Terrain/Terrains/Terrain 1.asset using Guid(4d32e30b5f100b34092f0cddf84f008e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17309e0a991c30ed4a3d7d885067e7f5') in 0.476687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Free Island Collection/Environment/Terrain/Terrains/Terrain 5.asset
+  artifactKey: Guid(32a065fc41c860e46858365d0acfcab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Environment/Terrain/Terrains/Terrain 5.asset using Guid(32a065fc41c860e46858365d0acfcab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cd80f4e0a77d3be9ec8623a502269e') in 0.464512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free Island Collection/Environment/Terrain/Terrains/Terrain 4.asset
+  artifactKey: Guid(a86e71163178e534b91625ff2705243f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Environment/Terrain/Terrains/Terrain 4.asset using Guid(a86e71163178e534b91625ff2705243f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235433adfed7a555f3ed9bcf09d9e073') in 0.427763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.277450 seconds.
+  path: Assets/Free Island Collection/Post Processing/Terrain Image Effects.asset
+  artifactKey: Guid(798da62f5f5e64f4991acae91a65b1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Post Processing/Terrain Image Effects.asset using Guid(798da62f5f5e64f4991acae91a65b1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957662803ed672f52bfc9e41743f7993') in 0.005013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.412256 seconds.
+  path: Assets/Free Island Collection/Scenes/Scene 1.unity
+  artifactKey: Guid(21395a1af6f566b459cf2f256020dc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Scenes/Scene 1.unity using Guid(21395a1af6f566b459cf2f256020dc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5c8d7ded1312bedf22036572950e8a') in 0.003715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.970221 seconds.
+  path: Assets/Free Island Collection/Scenes/Scene 2.unity
+  artifactKey: Guid(565db450102e511409619c0e510f2f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Scenes/Scene 2.unity using Guid(565db450102e511409619c0e510f2f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c2448b1ac462abb8bba5d812dd0d98') in 0.002792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.293835 seconds.
+  path: Assets/Free Island Collection/Scenes/Scene 3.unity
+  artifactKey: Guid(71d8ab01ba1810143bc5196b90c9dc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Scenes/Scene 3.unity using Guid(71d8ab01ba1810143bc5196b90c9dc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88126a870f997141112854667c959b7a') in 0.003713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.179561 seconds.
+  path: Assets/Free Island Collection/Scenes/Scene 4.unity
+  artifactKey: Guid(14e56cc4fda44024a9ad0c79b175a8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Scenes/Scene 4.unity using Guid(14e56cc4fda44024a9ad0c79b175a8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d0ccff04a607b5fe3326c8466a96d2') in 0.003929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.555181 seconds.
+  path: Assets/Free Island Collection/Scenes/Scene 5.unity
+  artifactKey: Guid(3ea34c218bf1ede4a88b561bf1a0c9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Scenes/Scene 5.unity using Guid(3ea34c218bf1ede4a88b561bf1a0c9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5acddd59cc15eca51a8ca1ce5c7a11d') in 0.003728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.877360 seconds.
+  path: Assets/Free Island Collection/Scenes/Scene 5Settings.lighting
+  artifactKey: Guid(e6baf8be4d1de6d428acf445fe17316d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Scenes/Scene 5Settings.lighting using Guid(e6baf8be4d1de6d428acf445fe17316d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'd586a990626860d08da72faffd4eb6c9') in 0.010640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.294343 seconds.
+  path: Assets/Free Island Collection/Environment/Terrain
+  artifactKey: Guid(f6b7c2009a26d1741b7d1f1200d4ad1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Environment/Terrain using Guid(f6b7c2009a26d1741b7d1f1200d4ad1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e17a9640d10142775297f7ddcabbc31') in 0.003977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.089307 seconds.
+  path: Assets/Free Island Collection/Environment/Terrain/Textures
+  artifactKey: Guid(dd36b55e9177eed459e9d317493220ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Environment/Terrain/Textures using Guid(dd36b55e9177eed459e9d317493220ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37dac60789e052bd66c96946dbbb4733') in 0.003228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.997632 seconds.
+  path: Assets/Free Island Collection/Environment/Terrain/Textures/Grass_1
+  artifactKey: Guid(97a3796679024694c844bf89ffd11b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Environment/Terrain/Textures/Grass_1 using Guid(97a3796679024694c844bf89ffd11b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edb028948ab2f244ebc796e477cf03e') in 0.003952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061351 seconds.
+  path: Assets/Free Island Collection/Environment/Terrain/Textures/Grass_1/Grass_1_Diffuse.tif
+  artifactKey: Guid(75ec9d666a8e3c8468361ddb5475adcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Environment/Terrain/Textures/Grass_1/Grass_1_Diffuse.tif using Guid(75ec9d666a8e3c8468361ddb5475adcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780d75eabf2df82b6a64a4923554aca5') in 0.026956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.761291 seconds.
+  path: Assets/Free Island Collection/Environment/Terrain/Textures/Dirt_2/Dirt_2_Diffuse.tif
+  artifactKey: Guid(be60de281999eee428cb58e0c908dc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Environment/Terrain/Textures/Dirt_2/Dirt_2_Diffuse.tif using Guid(be60de281999eee428cb58e0c908dc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bf0ad2c4481ce5154ced568033180e') in 0.019082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.268614 seconds.
+  path: Assets/Free Island Collection/Environment/Terrain/Textures/Grass_2/Grass_2_Diffuse.tif
+  artifactKey: Guid(d3bf48d327d33be44bfc0862c7e8367c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Environment/Terrain/Textures/Grass_2/Grass_2_Diffuse.tif using Guid(d3bf48d327d33be44bfc0862c7e8367c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca356a65fcab4b2e07535287590dab94') in 0.020147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.858385 seconds.
+  path: Assets/Free Island Collection/Environment/Terrain/Textures/Mossy_Rock/Mossy_Rock_Diffuse.tif
+  artifactKey: Guid(25aa1e93d2be86643bb80bb91e46a79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Environment/Terrain/Textures/Mossy_Rock/Mossy_Rock_Diffuse.tif using Guid(25aa1e93d2be86643bb80bb91e46a79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8814f17a45dc5b4a861bacc5e69f3a5f') in 0.019217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.264949 seconds.
+  path: Assets/Free Island Collection/Environment/Terrain/Textures/Sand/Sand_Diffuse.tif
+  artifactKey: Guid(42df4504925e3c6428d6c62cdba23147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Environment/Terrain/Textures/Sand/Sand_Diffuse.tif using Guid(42df4504925e3c6428d6c62cdba23147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bf71ba49a5aa96ec89f29708f506a2') in 0.013464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.195358 seconds.
+  path: Assets/Free Island Collection/Scenes/Scene 2Settings.lighting
+  artifactKey: Guid(43b845c56ec16af45aab0e016de3a248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Island Collection/Scenes/Scene 2Settings.lighting using Guid(43b845c56ec16af45aab0e016de3a248) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '9d593eeaaf98cf903a39726097e59f26') in 0.004206 seconds 
